@@ -1,0 +1,122 @@
+html, body{
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+body{
+  background-image: linear-gradient(233deg, #bad9ca 0%, #a7ccbd 16%, #96beb2 33%, #86b1a7 50%, #79a39d 66%, #6b9593 83%, #648787 100%);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+nav{
+  display: flex;
+  height: 150px;
+  width: 100%;
+  margin-bottom: 10px;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  font-family: 'Oxygen', sans-serif;
+  color: #3b3b32;
+  font-weight: 600;
+}
+main{
+  height: 100%;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.calculalor-area{
+  padding: 15px;
+  background-color: rgba(129, 97, 65, 0.42);
+  width: 400px;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 4px;
+  box-shadow: 0 0 50px rgba(152, 181, 91, 0.51);
+}
+.resultarea{
+  width: 100%;
+  height: 50px;
+  background-color: lightyellow;
+  color: #3b3b32;
+  text-align: right;
+  padding-right: 10px;
+  line-height: 45px;
+  margin-bottom: 10px;
+  font-size: 30px;
+  overflow: hidden;
+  font-family: 'Share Tech Mono', monospace;
+  box-shadow: inset 0 0 8px rgba(134, 92, 51, 0.604);
+}
+ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  background-color: #476999;
+  border-radius: 4px;
+}
+ul li{
+  width: 23%;
+  float: left;
+  height: 50px;
+  line-height: 50px;
+  background-color: #689593;
+  border: 1px solid #3b3b32;
+  font-size: 20px;
+  border-radius: 4px;
+  margin: 3px;
+  color: black;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 3px 0 rgba(57, 135, 118, 0.604);
+}
+ul li:active{
+  position: relative;
+  top: 3px;
+  box-shadow: none;
+}
+#equals{
+  float: right;
+  width: 48%;
+}
+.operators{
+  background-color: rgba(124, 156, 145, 0.899);
+}
+footer{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  margin-top: 10px;
+  text-align: center;
+  color: #3b3b32;
+  font-family: 'Oxygen', sans-serif;
+  font-size: 15px;
+  padding: 5px;
+}
+footer a{
+  text-decoration: none;
+  color: #3b3b32;
+  font-weight: bold;
+  padding: 15px;
+  transition: all 0.3s ease-in-out;
+}
+footer a i{
+  font-size: 15px;
+  margin-right: 5px;
+  border-radius: 6px;
+  transition: all 0.3s ease-in-out;
+}
+footer .endnote{
+  font-size: 12px;
+}
+footer a:hover i{
+  transform: scale(1.3);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
